@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* CSS for Body */
+body{
+	margin: 0; /* Removes default space on the left/right side. Affects nav too. */
+	background-color: lightpink;
+}	
+
+
+/* Main website title */
+h1{
+	text-align: center; /* Center Website's Title */
+	font-size: 70px; 
+	font-family: 'Lobster', cursive;
+	background-color: lightsalmon;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 370px;
+	margin-right: 350px;
+
+	border-radius: 50px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+/**/
+h2{
+	padding-top: 10px;
+}
+
+/* Hortizonal Navigation Bar */
+nav{
+	background-color: lightsalmon;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 12px;
+	font-family: 'Lobster', cursive;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;  /* Creates the hortizonal effect */
+	font-size: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+/* Color for Navigation Links */
+nav a:link{
+	color: black;
+	text-decoration: none;
+}
+nav a:visited{
+	color: black;
+	text-decoration: none;
+}
+nav a:active{
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding:  10px;
+	background-color: lightsalmon;
+}
+
+/* Color for other links */
+a:link{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+	
+}
+a:active{
+	color: white;
+	text-decoration: none;
+}
+
+
+i{
+	color: black;
+}
+
+
+
+#header_photo{
+	background-image:url(images/header.jpg);
+	height: 450px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 50px;
+}
+
+img{
+	display:block;
+	margin:0 auto;
+	border-radius: 50px;
+}
+
+	
+#f{
+	font-size: 20px;
+}
+
+#hometext{
+	font-size: 22px;
+	
+	font-family: 'Lobster', cursive;
+}
+
+#header_h2{
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+}
+
+#header_h3{
+	margin-left: 30px;
+	font-family: 'Lobster', cursive;
+}
+
+/* Title for the 3 bottom puppies photos */
+#puppy_tri{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
